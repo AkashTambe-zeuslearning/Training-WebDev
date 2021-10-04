@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .div-nextTask a{
+      font-size: 15px;
+      margin: 40px;
+      float: right;
+    }
+    .div-prevTask a{
+      font-size: 15px;
+      margin: 40px;
+      float: left;
+    }
+    .div-grid{
+      margin: 0px 20px;
+      align-content: center;
+      text-align: center;
+      color: white;
+      display: grid;
+      grid-gap: 2px;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: 60px repeat(2,180px) 60px;
+    }
+    .header{
+      position: relative;
+      background-image: linear-gradient(135deg, #9900ff, #cc66ff);
+      grid-column: 1/-1;
+      border-color: black;
+      border-style: solid;
+      border-width: 2px;
+    }
+    .sidebar{
+      position: relative;
+      background-image: linear-gradient(0deg, #009999, #00ffff);
+      grid-row: 2/-2;
+      border-color: black;
+      border-style: solid;
+      border-width: 2px;
+    }
+    .footer{
+      position: relative;
+      background-image: linear-gradient(135deg, #9900ff, #cc66ff);
+      grid-column: 1/-1;
+      border-color: black;
+      border-style: solid;
+      border-width: 2px;
+    }
+    .content1{
+      position: relative;
+      background-image: linear-gradient(135deg, #003399, #99ccff);
+      grid-column: 2/-1;
+      border-color: black;
+      border-style: solid;
+      border-width: 2px;
+    }
+    .content2{
+      position: relative;
+      background-image: linear-gradient(135deg, #003399, #99ccff);
+      border-color: black;
+      border-style: solid;
+      border-width: 2px;
+    }
+    .content3{
+      position: relative;
+      background-image: linear-gradient(135deg, #003399, #99ccff);
+      border-color: black;
+      border-style: solid;
+      border-width: 2px;
+    }
+    .center h1{
+      margin: 0px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="div-grid">
+    <header class="header center">
+      <h1>Header</h1>
+    </header>
+    <div class="sidebar center">
+      <h1>Sidebar</h1>
+    </div>
+    <div class="content1 center">
+      <h1>Content-1</h1>
+    </div>
+    <div class="content2 center">
+      <h1>Content-2</h1>
+    </div>
+    <div class="content3 center">
+      <h1>Content-3</h1>
+    </div>
+    <footer class="footer center">
+      <h1>Footer</h1>
+    </footer>
+  </div> 
+  <div class="div-prevTask">
+    <a href="index.html">previous task</a>
+  </div>
+  <div class="div-nextTask">
+    <a href="quantumLogin.html">next task</a>
+  </div>
+</body>
+</html>

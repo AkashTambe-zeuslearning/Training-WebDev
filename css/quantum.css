@@ -1,0 +1,172 @@
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 54px;
+  background-color: #1f2834;
+}
+
+.symbol {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  width: 134px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.symbol > i {
+  display: inline-block;
+  color: white;
+}
+
+.symbol > h1 {
+  margin: 0px 10px;
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: white;
+}
+
+main {
+  border-top: 2px solid #3ac7ec;
+  height: 666px;
+  background-color: #eeeeee;
+}
+
+.login {
+  margin: auto;
+  margin-top: 50px;
+  width: 488px;
+  height: 574px;
+  background-color: #ffffff;
+  border-top: 5px solid #3ac7ec;
+}
+
+.login-header {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.login-img {
+  display: inline-block;
+  margin-left: 32px;
+  margin-right: 77px;
+}
+
+.login-text {
+  display: inline;
+}
+
+.login-text > h1 {
+  margin: 0px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222222;
+}
+
+.form {
+  margin: 34px 32px 0px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ischool {
+  margin-left: 32px;
+}
+
+.selectors {
+  margin-top: 25px;
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.selector-label {
+  font-size: 12px;
+  color: #666666;
+}
+
+.selectors select {
+  width: 424px;
+  font-size: 16px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.inputs {
+  margin-top: 56px;
+  height: 129px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inputs input {
+  width: 424px;
+  font-size: 16px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.inputs .forgot {
+  float: right;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #1f7a54;
+}
+
+.submit {
+  margin-top: 26px;
+  height: 94px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.submit button {
+  align-self: center;
+  background-color: #3fd28b;
+  height: 40px;
+  width: 216px;
+  border: none;
+  box-shadow: 0px 3px 5px #0000003d;
+}
+
+footer {
+  display: flex;
+  height: 74px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eeeeee;
+}
+
+.about .details {
+  font-size: 14px;
+  color: #1f7a54;
+}
+
+.creds {
+  height: 40px;
+  width: 100%;
+  background-color: #e0e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creds .footerimg {
+  margin: 0px 5px;
+}
+
+.creds .footertxt {
+  margin: 0px 5px;
+}
