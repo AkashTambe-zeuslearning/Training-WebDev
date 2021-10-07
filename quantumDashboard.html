@@ -1,12 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="fonts" href="fonts/Quicksand font 1/Quicksand-VariableFont_wght.ttf">
+  <link rel="stylesheet" href="css/quantum.css">
+  <title>Quantum</title>
 </head>
+
 <body>
-  
+  <header>
+    <div class="symbol">
+      <img src="images/icons/logo used in header.svg" alt="quantum logo">
+    </div>
+    <div class="navbar">
+      <li class="navbar-list">
+        <ul>DASHBOARD</ul>
+        <ul>CONTENT</ul>
+        <ul>USER</ul>
+        <ul>REPORTS</ul>
+        <ul>ADMIN</ul>
+        <ul>
+          <img src="images/icons/alerts.svg" alt="notification icon">
+          <div class="count">8</div>
+        </ul>
+        <ul>
+          <img src="images/icons/announcements.svg" alt="notification icon">
+          <div class="count">8</div>
+        </ul>
+        <ul><img src="images/icons/profile.JPG" alt="notification icon"></ul>
+      </li>
+    </div>
+  </header>
+  <main>
+    <div class="dashboard">
+      <div class="dashboard-heading">
+        <div class="dashboard-menu courses">
+          <img src="images/icons/courses.svg" alt="courses icon">
+          <div class="dashboard-content">
+            <strong>4</strong>
+            <h1>Courses</h1>
+          </div>
+        </div>
+        <div class="dashboard-menu">
+          <img src="images/icons/classes.svg" alt="classes icon">
+          <div class="dashboard-content">
+            <strong>4</strong>
+            <h1>Classes</h1>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-menu-details">
+        <h2>Showing 4 of 4 courses</h2>
+        <div class="sort-menu">
+          <h2>sort by:</h2>
+          <select name="course-name" id="course">
+            <option value="">Course Name</option>
+          </select>
+          <img src="images/icons/sort.svg" alt="up arrow">
+        </div>
+      </div>
+      <hr class="line-break">
+      <div class="courses-grid">
+        <div class="course-card">
+          <div class="course-card-content">
+            <img src="images/imageMask-1.svg" alt="Acceleration course cover">
+            <div class="course-card-main-content">
+              <h1>Acceleration</h1>
+              <div class="course-subject">
+                <h2>Physics</h2>
+                <h2 class="vertical-break">|</h2>
+                <h2>Grade 7</h2>
+                <h2 class="grade-counter">+2</h2>
+              </div>
+              <div class="course-information">
+                <div class="course-informaton-unit">
+                  <strong>4</strong>
+                  <h2>Units</h2>
+                </div>
+                <div class="course-informaton-unit">
+                  <strong>18</strong>
+                  <h2>Lessons</h2>
+                </div>
+                <div class="course-informaton-unit">
+                  <strong>24</strong>
+                  <h2>Topics</h2>
+                </div>
+              </div>
+              <select name="class" id="">
+                <option value="Mr. Frank's Class B">Mr. Frank's Class B</option>
+              </select>
+              <div class="course-data">
+                <h2>50 Students1</h2>
+                <h2 class="vertical-break">|</h2>
+                <h2>21-Jan-2020 - 21-Aug-2020</h2>
+              </div>
+            </div>
+          </div>
+          <hr class="line-break">
+          <div class="card-footer">
+            <img src="images/icons/preview.svg" alt="preview button">
+            <img src="images/icons/manage course.svg" alt="manage courses button">
+            <img src="images/icons/reports.svg" alt="reports button">
+            <img src="images/icons/grade submissions.svg" alt="submissions button">
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-card-content">
+            <img src="images/imageMask-2.svg" alt="Displacement, Velocit and Speed course cover">
+            <div class="course-card-main-content">
+              <h1>Displacement, Velocit and Speed</h1>
+              <div class="course-subject">
+                <h2>Physics2</h2>
+                <h2 class="vertical-break">|</h2>
+                <h2>Grade 6</h2>
+                <h2 class="grade-counter">+3</h2>
+              </div>
+              <div class="course-information">
+                <div class="course-informaton-unit">
+                  <strong>2</strong>
+                  <h2>Units</h2>
+                </div>
+                <div class="course-informaton-unit">
+                  <strong>15</strong>
+                  <h2>Lessons</h2>
+                </div>
+                <div class="course-informaton-unit">
+                  <strong>20</strong>
+                  <h2>Topics</h2>
+                </div>
+              </div>
+              <select name="class" id="">
+                <option value="No Classes">No Classes</option>
+              </select>
+            </div>
+          </div>
+          <hr class="line-break">
+          <div class="card-footer">
+            <img src="images/icons/preview.svg" alt="preview button">
+            <img src="images/icons/manage course.svg" alt="manage courses button">
+            <img src="images/icons/reports.svg" alt="reports button">
+            <img src="images/icons/grade submissions.svg" alt="submissions button">
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-card-content">
+            <img src="images/imageMask.svg"
+              alt="Introduction to Biology: Micro organisms and how they affec... course cover">
+            <div class="course-card-main-content">
+              <h1>Introduction to Biology: Micro organisms and how they affec...</h1>
+              <div class="course-subject">
+                <h2>Biology</h2>
+                <h2 class="vertical-break">|</h2>
+                <h2>Grade 4</h2>
+                <h2 class="grade-counter">+1</h2>
+              </div>
+              <div class="course-information">
+                <div class="course-informaton-unit">
+                  <strong>5</strong>
+                  <h2>Units</h2>
+                </div>
+                <div class="course-informaton-unit">
+                  <strong>16</strong>
+                  <h2>Lessons</h2>
+                </div>
+                <div class="course-informaton-unit">
+                  <strong>22</strong>
+                  <h2>Topics</h2>
+                </div>
+              </div>
+              <select name="class" id="">
+                <option value="All Classes">All Classes</option>
+              </select>
+              <div class="course-data">
+                <h2>300 Students</h2>
+              </div>
+            </div>
+          </div>
+          <hr class="line-break">
+          <div class="card-footer">
+            <img src="images/icons/preview.svg" alt="preview button">
+            <img src="images/icons/manage course.svg" alt="manage courses button">
+            <img src="images/icons/reports.svg" alt="reports button">
+            <img src="images/icons/grade submissions.svg" alt="submissions button">
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-card-content">
+            <img src="images/imageMask-1.svg" alt="Introduction to High School Mathematics course cover">
+            <div class="course-card-main-content">
+              <h1>Introduction to High School Mathematics</h1>
+              <div class="course-subject">
+                <h2>Mathematics</h2>
+                <h2 class="vertical-break">|</h2>
+                <h2>Grade 8</h2>
+                <h2 class="grade-counter">+3</h2>
+              </div>
+              <!-- <div class="course-information">
+                <div class="course-informaton-unit">
+                  <strong>4</strong>
+                  <h2>Units</h2>
+                </div>
+                <div class="course-informaton-unit">
+                  <strong>18 </strong>
+                  <h2>Lessons</h2>
+                </div>
+                <div class="course-informaton-unit">
+                  <strong>24 </strong>
+                  <h2>Topics</h2>
+                </div>
+              </div> -->
+              <select name="class" id="">
+                <option value="Mr. Frank's Class A">Mr. Frank's Class A</option>
+              </select>
+              <div class="course-data">
+                <h2>44 Students</h2>
+                <h2 class="vertical-break">|</h2>
+                <h2>14-Oct-2019 - 20-Oct-2020</h2>
+              </div>
+            </div>
+          </div>
+          <hr class="line-break">
+          <div class="card-footer">
+            <img src="images/icons/preview.svg" alt="preview button">
+            <img src="images/icons/manage course.svg" alt="manage courses button">
+            <img src="images/icons/reports.svg" alt="reports button">
+            <img src="images/icons/grade submissions.svg" alt="submissions button">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="about">
+      <span class="details">About</span>
+      <span class="divider">|</span>
+      <span class="details">Contact Us</span>
+    </div>
+    <div class="creds">
+      <div class="footerimg">
+        <img src="images/icons/logo used in footer.svg" alt="footer logo" />
+      </div>
+      <span class="divider">|</span>
+      <div class="footertxt">
+        Copyright © 2020-2021 <strong>Zeus Systems Pvt. Ltd.</strong> All rights reserved.
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
